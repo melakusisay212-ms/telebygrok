@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tele Expense</string>
+    <string name="permission_sms_rationale">Tele Expense needs SMS access to detect telecom purchases and recharges automatically. Your messages are processed locally on your phone.</string>
+</resources>

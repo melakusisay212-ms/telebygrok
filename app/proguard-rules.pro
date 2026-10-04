@@ -1,0 +1,2 @@
+-keep class com.teleexpense.counter.data.entity.** { *; }
+-keep class com.teleexpense.counter.domain.model.** { *; }

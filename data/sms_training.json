@@ -1,0 +1,8 @@
+[
+  {"id": "ex_a", "sender": "EBIRR", "body": "[-EBIRR-KAAFI-] Transfer ID: 802520883630, You have successfuly sent airtime top-up of ETB5 to 251981801919", "expected": {"classification": "COUNT", "amount": 5.0}},
+  {"id": "ex_b", "sender": "EBIRR", "body": "[-EBIRR-KAAFI-] Transfer ID: 802520883630, You have received airtime top-up of ETB5 from 251981801919", "expected": {"classification": "IGNORE"}},
+  {"id": "ex_c", "sender": "EBIRR", "body": "[-EBIRR-KAAFI-] You have recharged ETB5 to 251981801919, your balance is ETB3.6", "expected": {"classification": "REFERENCE", "amount": 5.0}},
+  {"id": "ex_data", "sender": "telebirr", "body": "You have paid ETB 35.00 for package Monthly student pack 1.2GB + 120SMS. Your transaction number is DIB1N45Z9Z.", "expected": {"classification": "COUNT", "amount": 35.0}},
+  {"id": "ex_p2p", "sender": "telebirr", "body": "You have transferred ETB 10.00 to RUTA TAKELE (2519****3230).", "expected": {"classification": "IGNORE"}},
+  {"id": "ex_free", "sender": "ethio", "body": "Happy birthday! Please enjoy 1GB internet package Free gift.", "expected": {"classification": "IGNORE"}}
+]
